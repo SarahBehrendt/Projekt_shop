@@ -1,0 +1,59 @@
+
+@font-face {
+    font-family: Karla;
+    src: url(./font/Karla-Regular.ttf);
+}
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Karla",Arial, Helvetica, sans-serif;
+}
+
+
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+h1{
+    font-size: 48px;
+    margin:30px 0;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+
+    padding: 50px;
+
+background-color: lightgray;
+}
+
+input[type="submit"]{
+    width:25%;
+    background-color: blueviolet;
+    color:white;
+    font-size: 28px;
+    padding: 20px 30px;
+}
+
+input[type="text"]{
+    margin-top:0;
+    line-height: 30px;;
+}
+
+input{
+    margin:20px 0;
+}
+
+label{
+    font-size: 30px;
+    color:black;
+}
+
